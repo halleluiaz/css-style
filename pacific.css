@@ -2,7 +2,7 @@ header, hgroup, nav, footer, figure, figcaption, aside, section, article {
 	display: block;
 }
 body {
-	background-color: ;
+	background-image: url(ptrbackground.jpg);
 	color: #666666;
 	font-family: Arial, Helvetica, sans-serif;
 }
