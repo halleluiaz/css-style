@@ -1,38 +1,74 @@
+/*
+    File: pacific.css
+	GUI Assignment: Style a Site with External CSS
+	Halleluia Zeyohannes, UMass Lowell Computer Science, halleluia_zeyohannes@student.uml.edu
+	Copyright (c) 2022 by Halleluia Zeyohannes. All rights reserved. May be freely copied or exerpted 
+	for educational purposes with credit to the author.
+	updated by HZ on PM.
+
+	This file is used to externally style the site elements in index.html according to the instructor 
+	provided images.
+*/
+
 header, hgroup, nav, footer, figure, figcaption, aside, section, article {
 	display: block;
 }
+
 body {
-	background-image: url(ptrbackground.jpg);
+	background: #00569f url(ptrbackground.jpg);
 	color: #666666;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+#wrapper {
+	width: 80%;
+	min-width: 600px;
+	background-color: #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header {
+	background-image: url(sunset.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-color: #000033;
+	color: #FFFFFF;
+}
 nav ul {
 	font-size: 1.2em;
 }
+
 nav a:visited {
 	color: #344873;
 }
+
 nav a:hover {
 	color: #FFFFFF;
 }
+
 h1 {
 	margin-bottom: 0;
 	padding: 10px;
 }
+
 h2 {
 	color: #3399CC;
 }
+
 h1,
 h2 {
 	font-family: Georgia, "Times New Roman", serif;
 }
+
 #contact {
 	font-size: 90%;
 }
+
 dt {
 	color: #000033;
 }
+
 footer {
 	font-family: Georgia, "Times New Roman", serif;
 }
