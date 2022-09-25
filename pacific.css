@@ -20,14 +20,6 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-#wrapper {
-	width: 80%;
-	min-width: 600px;
-	background-color: #FFFFFF;
-	margin-left: auto;
-	margin-right: auto;
-}
-
 header {
 	background-image: url(sunset.jpg);
 	background-repeat: no-repeat;
@@ -73,3 +65,10 @@ footer {
 	font-family: Georgia, "Times New Roman", serif;
 }
 
+#wrapper {
+	width: 80%;
+	min-width: 600px;
+	background-color: #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+}
