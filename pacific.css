@@ -50,6 +50,10 @@ nav {
 
 /*
     Style the list so that there are no bullet points.
+
+	Learned about list properties from here:
+
+	https://www.w3schools.com/css/css_list.asp 
 */
 nav ul {
 	font-size: 1.2em;
@@ -60,6 +64,10 @@ nav ul {
 
 /*
     Style links so that they are bold, one color, and not underlined.
+
+	Learned about removing underlines for links here: 
+
+	https://www.w3schools.com/css/css_text_decoration.asp
 */
 nav a {
 	font-weight: bold;
@@ -91,6 +99,9 @@ h2 {
 
 /*
     Keeps images on the left so that other elements will wrap around it.
+	This was accomplished using float. I learned about it from here: 
+
+	https://www.w3schools.com/css/css_float.asp
 */
 img {
 	float: left;
