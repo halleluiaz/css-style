@@ -30,6 +30,8 @@ header {
 
 nav {
 	width: 200px;
+	height: 100%;
+	position: fixed;
 	float: left;
 	background-color: #90c7e3;
 }
