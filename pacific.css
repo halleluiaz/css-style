@@ -76,7 +76,9 @@ nav a {
 }
 
 /*
-   Given by instructor. When hovering over the links in the navbar, 
+   Following 4 rules given by instructor. 
+   
+   For this rule, when hovering over the links in the navbar, 
    they will become white.
 */
 nav a:hover {
