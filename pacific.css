@@ -108,4 +108,6 @@ footer {
 
 #content > ul {
 	list-style-image: url(marker.gif);
+	list-style-position: inside;
+	margin: 10px;
 }
