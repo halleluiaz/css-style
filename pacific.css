@@ -1,15 +1,15 @@
 /*
-    File: pacific.css
-	GUI Assignment: Style a Site with External CSS
-	Halleluia Zeyohannes, UMass Lowell Computer Science, halleluia_zeyohannes@student.uml.edu
-	Copyright (c) 2022 by Halleluia Zeyohannes. All rights reserved. May be freely copied or exerpted 
-	for educational purposes with credit to the author.
-	updated by HZ on 9/27/22 1:25am.
+File: pacific.css
+GUI Assignment: Style a Site with External CSS
+Halleluia Zeyohannes, UMass Lowell Computer Science, halleluia_zeyohannes@student.uml.edu
+Copyright (c) 2022 by Halleluia Zeyohannes. All rights reserved. May be freely copied or exerpted 
+for educational purposes with credit to the author.
+updated by HZ on 9/27/22 1:25am.
 
-	This file is used to externally style the site elements in index.html according to the instructor 
-	provided images.
+This file is used to externally style the site elements in index.html according to the instructor 
+provided images.
 
-	Comments below describe the main goal of each CSS rule.
+Comments below describe the main goal of each CSS rule.
 */
 
 header, hgroup, nav, footer, figure, figcaption, aside, section, article {
@@ -28,8 +28,8 @@ body {
 
 /*
     Add background image to header(sunset.jpg) and make sure it doesn't repeat through the 
-	width of the header element. Background color blends into the image for a cohesive 
-	appearance.
+    width of the header element. Background color blends into the image for a cohesive 
+    appearance.
 */
 header {
 	background-image: url(sunset.jpg);
@@ -51,9 +51,8 @@ nav {
 /*
     Style the list so that there are no bullet points.
 
-	Learned about list properties from here:
-
-	https://www.w3schools.com/css/css_list.asp 
+    Learned about list properties from here:
+    https://www.w3schools.com/css/css_list.asp 
 */
 nav ul {
 	font-size: 1.2em;
@@ -65,9 +64,8 @@ nav ul {
 /*
     Style links so that they are bold, one color, and not underlined.
 
-	Learned about removing underlines for links here: 
-
-	https://www.w3schools.com/css/css_text_decoration.asp
+    Learned about removing underlines for links here: 
+    https://www.w3schools.com/css/css_text_decoration.asp
 */
 nav a {
 	font-weight: bold;
@@ -101,9 +99,8 @@ h2 {
 
 /*
     Keeps images on the left so that other elements will wrap around it.
-	This was accomplished using float. I learned about it from here: 
-
-	https://www.w3schools.com/css/css_float.asp
+    This was accomplished using float. I learned about it from here: 
+    https://www.w3schools.com/css/css_float.asp
 */
 img {
 	float: left;
@@ -120,7 +117,7 @@ dt {
 }
 /*
     Italicize footer and make background white so that it doesn't 
-	default to the light blue color set by #wrapper below.
+    default to the light blue color set by #wrapper below.
 */
 footer {
 	font-family: Georgia, "Times New Roman", serif;
@@ -140,9 +137,9 @@ footer {
 }
 
 /*
-   Styles the center 'box' given by the div element with this class. Defines 
-   the width, centers it on the website, and sets the background color to 
-   a light blue. 
+    Styles the center 'box' given by the div element with this class. Defines 
+    the width, centers it on the website, and sets the background color to 
+    a light blue. 
 */
 #wrapper {
 	width: 80%;
@@ -154,8 +151,8 @@ footer {
 
 /*
     Style elements in wrapper outside of the nav element. Set background to 
-	white so that it doesn't inherit the light blue color and set left margin 
-	so that content is on the right of the navbar.
+    white so that it doesn't inherit the light blue color and set left margin 
+    so that content is on the right of the navbar.
 */
 #content {
 	margin-left: 200px;
@@ -165,7 +162,7 @@ footer {
 
 /*
     Style the bulleted list in content. Uses marker.gif as the bullet points 
-	and positions it to line up with the paragraph above it.
+    and positions it to line up with the paragraph above it.
 */
 #content > ul {
 	list-style-image: url(marker.gif);
